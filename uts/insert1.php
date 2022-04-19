@@ -16,6 +16,7 @@ if(isset($_POST['new']) && $_POST['new']==1){
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
 <meta charset="utf-8">
 <title>Insert New Record</title>
 <link rel="stylesheet" href="css/style.css" />

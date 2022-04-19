@@ -9,7 +9,6 @@ header("Location: view.php");
 <html>
 
 <head>
-
 </head>
 
 <body>

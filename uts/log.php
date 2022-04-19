@@ -30,7 +30,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
                 $_SESSION['telp'] = $row['telp'];
                 $_SESSION['peran'] = $row['peran'];
                 $_SESSION['kode_user'] = $row['kode_user'];
-                header("Location:trus.html");
+                header("Location:trus.php");
                 exit();
             } else {
                 header("Location:index.php?error=Incorect Username or password");

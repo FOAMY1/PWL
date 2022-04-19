@@ -8,6 +8,7 @@ $row = mysqli_fetch_assoc($result);
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
 <meta charset="utf-8">
 <title>Update Record</title>
 <link rel="stylesheet" href="css/style.css" />

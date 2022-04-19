@@ -6,7 +6,7 @@ include("koneksi.php");
 <head>
 <meta charset="utf-8">
 <title>View Records</title>
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css1.css">
 </head>
 <body>
 <div class="form">
@@ -33,11 +33,11 @@ $sel_query="Select * from user ORDER BY kode_user desc;";
 $result = mysqli_query($conn,$sel_query);
 while($row = mysqli_fetch_assoc($result)) { ?>
 <tr><td align="center"><?php echo $count; ?></td>
-<td align="center"><?php echo $row["nama"]; ?></td>
-<td align="center"><?php echo $row["email"]; ?></td>
-<td align="center"><?php echo $row["telp"]; ?></td>
-<td align="center"><?php echo $row["peran"]; ?></td>
-<td align="center">
+<td align="center" style="color:#0000ff"><?php echo $row["nama"]; ?></td>
+<td align="center" style="color:#0000ff"><?php echo $row["email"]; ?></td>
+<td align="center" style="color:#0000ff"><?php echo $row["telp"]; ?></td>
+<td align="center" style="color:#0000ff"><?php echo $row["peran"]; ?></td>
+<td align="center" style="color:#0000ff">
 <a href="edit1.php?id=<?php echo $row["kode_user"]; ?>">Edit</a>
 </td>
 <td align="center">
