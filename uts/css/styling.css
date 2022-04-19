@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.backhome{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(gambar/booksbg.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.container2{
+    margin:auto;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    padding-top: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(133, 92, 173);
+}
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(133, 92, 173);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+.btnwarna{
+    padding: 10px 20px;
+    border: 0;
+    background: white;
+    background-size: 0;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
+    color: rgb(133, 92, 173);
+    transition: 0.5s;
+    width: 20vw;
+    text-align: center;
+}
+.btnwarna:hover{
+    background-color:rgb(133, 92, 173) ;
+    background-size: 100%;
+    width: 40vw;
+    color: white;
+}
+.banner-home{
+    margin: 80px 130px;
+    color: white;
+}
+.banner-home p{
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banner-home img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-home button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.isi-contact{
+    padding: 0 8%;
+}
+.isi-contact h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    color: white;
+}
+.isi-contact h1::after{
+    content: '';
+    height: 3px;
+    width: 120px;
+    background:rgb(133, 92, 173);
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -5px;
+}
+
+.contact{
+    margin: auto;
+    text-align: center;
+    padding: 20px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.5s;
+}
+.contact h2{
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.contact span{
+    color: rgb(133, 92, 173);
+    font-size: 60px;
+}
+.nengah{
+    text-align: center;
+}
+.contact:hover{
+    background:rgb(133, 92, 173);
+    transform: scale(1.05);
+}
+.contact:hover h2{
+    color:black;
+}
+.contact:hover span{
+    color: white;
+}
+.contact:hover p{
+    color: black;
+}
+.drink{
+    margin: 10px;
+    text-align: center;
+    padding: 20px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.5s;
+}
+.drink h2{
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+.drink p{
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+.drink img{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.drink:hover{
+    transform: scale(1.05);
+}
+.drink:hover h2{
+    color:rgb(133, 92, 173);
+}
+.drink:hover p{
+    color: rgb(133, 92, 173);
+}
+.feed{
+    padding: 5px;
+    display: block;
+    margin: auto;
+    width: auto;
+}
