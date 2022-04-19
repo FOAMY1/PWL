@@ -33,7 +33,7 @@ $update="update user set nama='".$nama."', email='".$email."',
 telp='".$telp."',peran='".$peran."',password='".$password."' where kode_user='".$id."'";
 mysqli_query($conn, $update);
 $status = "Record Updated Successfully. </br></br>
-<a href='view.php'>View Updated Record</a>";
+<a href='view1.php'>View Updated Record</a>";
 echo '<p style="color:#FF0000;">'.$status.'</p>';
 }else {
 ?>
