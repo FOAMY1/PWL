@@ -33,17 +33,17 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
                 header("Location:trus.html");
                 exit();
             } else {
-                header("Location:login.php?error=Incorect Username or password");
+                header("Location:index.php?error=Incorect Username or password");
                 exit();
             }
         } else {
 
-            header("Location:login.php?error=Incorect Username or password");
+            header("Location:index.php?error=Incorect Username or password");
 
             exit();
         }
     }
 } else {
-    header("Location:login.php");
+    header("Location:index.php");
     exit();
 }
