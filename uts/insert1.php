@@ -10,7 +10,7 @@ if(isset($_POST['new']) && $_POST['new']==1){
     $ins_query="INSERT INTO `user`(`nama`, `email`, `telp`, `password`, `peran`) VALUES ('$nama','$email','$telp','$password','$peran')";
     mysqli_query($conn,$ins_query);
     $status = "New Record Inserted Successfully.
-    </br></br><a href='view.php'>View Inserted Record</a>";
+    </br></br><a href='view1.php'>View Inserted Record</a>";
 }
 ?>
 <!DOCTYPE html>
