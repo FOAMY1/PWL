@@ -10,7 +10,7 @@ include("koneksi.php");
 </head>
 <body>
 <div class="form">
-<p><a href="trus.html">Home</a> 
+<p><a href="trus.php">Home</a> 
 | <a href="insert1.php">Insert New Record</a> 
 | <a href="logout.php">Logout</a></p>
 <h2>View Records</h2>
