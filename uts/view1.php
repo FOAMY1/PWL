@@ -19,7 +19,9 @@ include("koneksi.php");
 <tr>
 <th><strong>S.No</strong></th>
 <th><strong>Nama</strong></th>
-<th><strong>harga</strong></th>
+<th><strong>email</strong></th>
+<th><strong>telp</strong></th>
+<th><strong>peran</strong></th>
 <th><strong>Edit</strong></th>
 <th><strong>Delete</strong></th>
 </tr>
